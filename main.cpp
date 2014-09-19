@@ -47,6 +47,7 @@ int contar(NodoBinario* raiz, int num)
 //Devuelve true si puedo llegar desde las coordenadas [y_inicial][x_inicial] hasta [y_destino][x_destino], de lo contrario devuelve false
 //Solo se puede desplazar hacia arriba, abajo, izquierda y derecha
 //5pts
+
 bool puedoLLegar(int tablero[5][5],
             int x_inicial, int y_inicial,
             int x_destino, int y_destino,
